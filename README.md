@@ -5,7 +5,9 @@ Travel Notes
 Project was created based on course React in eduweb.pl, created by Adam Romański.
 I've changed / add own layout, content, menu, RWD, and add some function like validation form, delate element.
 
-# See live
+## See live
+
+# <a href="https://kamiladyn.github.io/">LIVE VIEW</>
 
 ## Technologies used
 

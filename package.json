@@ -1,8 +1,8 @@
 {
+  "homepage": "http://kamiladyn.github.io/Travel-Notes",
   "name": "note_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://KamilaDyn.github.io/Travel-Notes",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,12 +15,12 @@
     "same-origin": "^0.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
