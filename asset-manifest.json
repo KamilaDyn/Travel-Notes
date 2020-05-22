@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Travel-Notes/static/css/main.2ed5a44a.chunk.css",
+    "main.js": "/Travel-Notes/static/js/main.3b87a27a.chunk.js",
+    "main.js.map": "/Travel-Notes/static/js/main.3b87a27a.chunk.js.map",
+    "runtime-main.js": "/Travel-Notes/static/js/runtime-main.fb01cdd4.js",
+    "runtime-main.js.map": "/Travel-Notes/static/js/runtime-main.fb01cdd4.js.map",
+    "static/js/2.88b91a90.chunk.js": "/Travel-Notes/static/js/2.88b91a90.chunk.js",
+    "static/js/2.88b91a90.chunk.js.map": "/Travel-Notes/static/js/2.88b91a90.chunk.js.map",
+    "index.html": "/Travel-Notes/index.html",
+    "precache-manifest.221c6bd23e7fc768ff63e2f34d8ee0cb.js": "/Travel-Notes/precache-manifest.221c6bd23e7fc768ff63e2f34d8ee0cb.js",
+    "service-worker.js": "/Travel-Notes/service-worker.js",
+    "static/css/main.2ed5a44a.chunk.css.map": "/Travel-Notes/static/css/main.2ed5a44a.chunk.css.map",
+    "static/js/2.88b91a90.chunk.js.LICENSE.txt": "/Travel-Notes/static/js/2.88b91a90.chunk.js.LICENSE.txt",
+    "static/media/Sidebar.css": "/Travel-Notes/static/media/1976241.f6e551d8.jpg",
+    "static/media/Logo.png": "/Travel-Notes/static/media/Logo.3e77918d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb01cdd4.js",
+    "static/js/2.88b91a90.chunk.js",
+    "static/css/main.2ed5a44a.chunk.css",
+    "static/js/main.3b87a27a.chunk.js"
+  ]
+}
