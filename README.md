@@ -7,7 +7,7 @@ I've changed / add own layout, content, menu, RWD, and add some function like va
 
 ## See live
 
-# <a href="https://kamiladyn.github.io/">LIVE VIEW</>
+# <a href="https://kamiladyn.github.io/Travel-Notes/">LIVE VIEW</a>
 
 ## Technologies used
 
