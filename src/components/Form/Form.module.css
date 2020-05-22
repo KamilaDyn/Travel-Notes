@@ -1,0 +1,160 @@
+.formWrapper .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 560px) {
+  .formWrapper .formContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.formWrapper .formTitle {
+  color: #1156c2;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 560px) {
+  .formWrapper .formTitle {
+    font-size: 25px;
+  }
+}
+
+@media (min-height: 550px) {
+  .formWrapper .formTitle {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (orientation: landscape) {
+  .formWrapper .formTitle {
+    font-size: 20px;
+  }
+}
+
+.formWrapper .line {
+  border: 1px solid #1156c2;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .formWrapper .line {
+    margin-bottom: 1%;
+  }
+}
+
+@media (min-width: 320px) and (orientation: portrait) {
+  .formWrapper .line {
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (orientation: landscape) {
+  .formWrapper .line {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 560px) and (min-height: 550px) and (orientation: landscape) {
+  .formWrapper .line {
+    margin-bottom: 15px;
+  }
+}
+
+.formWrapper .formOptions {
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+@media (min-width: 560px) {
+  .formWrapper .formOptions {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-height: 400px) and (max-height: 740px) {
+  .formWrapper .formOptions {
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 740px) {
+  .formWrapper .formOptions {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-height: 740px) {
+  .formWrapper .formOptions {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (orientation: landscape) {
+  .formWrapper .formOptions {
+    padding-bottom: 5px;
+  }
+}
+
+.formWrapper .formInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (max-height: 500px) and (orientation: landscape) {
+  .formWrapper .formInputs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (max-height: 500px) and (orientation: landscape) {
+  .formWrapper .formInputs .inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 47%;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (max-height: 500px) and (orientation: landscape) {
+  .formWrapper .formInputs .textcontainer {
+    width: 47%;
+  }
+}
+/*# sourceMappingURL=Form.module.css.map */

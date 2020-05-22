@@ -1,0 +1,17 @@
+@import "../../variables/variables.scss";
+
+.header {
+  width: 100%;
+  position: relative;
+  padding-top: 70px;
+  @media (min-width: $width-l) {
+    flex-direction: row;
+  }
+}
+
+.underline {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  border: 2px solid $darkRed;
+}

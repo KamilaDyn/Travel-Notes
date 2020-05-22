@@ -1,0 +1,14 @@
+@import "../../variables/variables.scss";
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.note {
+  color: $darkBlue;
+  text-align: center;
+  span {
+    color: $darkRed;
+  }
+}

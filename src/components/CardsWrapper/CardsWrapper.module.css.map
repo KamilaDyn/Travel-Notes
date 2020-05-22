@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAC9B;;AACD,AAAA,KAAK,CAAC;EACJ,KAAK,ECNI,OAAO;EDOhB,UAAU,EAAE,MAAM;CAInB;;AAND,AAGE,KAHG,CAGH,IAAI,CAAC;EACH,KAAK,ECPC,OAAO;CDQd",
+    "sources": [
+        "CardsWrapper.module.scss",
+        "../../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "CardsWrapper.module.css"
+}

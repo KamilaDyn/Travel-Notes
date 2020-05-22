@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,KAAK,ECCG,OAAO;EDAf,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "ErrorMessage.module.scss",
+        "../../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "ErrorMessage.module.css"
+}

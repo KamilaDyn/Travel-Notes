@@ -1,0 +1,61 @@
+@import "../../variables/variables.scss";
+
+.formItem {
+  max-width: 750px;
+  width: 95%;
+  margin-bottom: 5px;
+
+  @media (min-width: $height-xs) and (orientation: portrait) {
+    margin-bottom: 10px;
+  }
+  @media (min-width: $width-xxs) and( min-height: $height-xs) and (orientation: landscape) {
+    width: 100%;
+  }
+}
+
+.label {
+  color: $black;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  @media (min-width: $width-xm) and (max-height: $height-l) {
+    font-size: 16px;
+  }
+  @media (min-height: $height-xm) {
+    font-size: 18px;
+  }
+  @media (min-width: $width-xxs) and( min-height: $height-xs) and (orientation: landscape) {
+    font-size: 14px;
+  }
+}
+
+.input,
+.textarea {
+  width: 100%;
+  height: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  background: $dirtyWhite;
+  border: 1px solid $darkBlue;
+  border-radius: 20px;
+  margin: 5px auto 0 auto;
+  padding: 10px;
+  @media (min-width: $width-xxs) and( min-height: $height-xs) and (orientation: landscape) {
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $width-m) and (min-height: $height-xm) {
+    height: 30px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.textarea {
+  height: 180px;
+  resize: none;
+  margin-bottom: 10px;
+}

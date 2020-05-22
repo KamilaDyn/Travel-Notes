@@ -1,0 +1,79 @@
+@import "../../variables/variables.scss";
+
+.wrapper {
+  width: 90%;
+  max-width: 750px;
+  height: 95%;
+  max-height: 750px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5%;
+  padding: 8% 8% 3%;
+  margin: 0 auto;
+  background-color: $white;
+  border: 1px solid $darkBlue;
+  box-shadow: 0 20px 40px -5px rgba($darkBlue, 0.3);
+  border-radius: 5px;
+  z-index: 10000;
+
+  @media (min-width: $width-xxs) and (orientation: portrait) {
+    padding: 10% 8% 3%;
+  }
+
+  @media (min-width: $width-xxs) and( min-height: $height-xxs) and (orientation: landscape) {
+    padding: 3% 4% 3%;
+  }
+
+  @media (min-width: $width-m) and (min-height: $height-xm) and (orientation: landscape) {
+    padding: 5% 8% 3%;
+  }
+}
+
+.closeModule {
+  width: 27px;
+  height: 27px;
+  background: #1e58ff;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  &::before,
+  &::after {
+    content: "";
+    width: 16px;
+    height: 2px;
+    position: absolute;
+    background: white;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    transform-origin: 50%;
+  }
+
+  @media (min-width: $width-m) {
+    right: 30px;
+    top: 30px;
+  }
+  @media (min-width: $width-xxs) and( min-height: $height-xxs) and (orientation: landscape) {
+    right: 10px;
+    top: 10px;
+  }
+  @media (min-width: $width-xm) and (min-height: $height-xm) and (orientation: landscape) {
+    right: 30px;
+    top: 30px;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}

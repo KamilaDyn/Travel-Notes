@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CACf;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECXN,OAAO;EDYjB,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,EAAE;EACjB,WAAW,EAAE,IAAI;CASlB;;AAfD,AAQE,KARG,CAQH,CAAC,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,ECjBE,OAAO;EDkBd,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;CACpB",
+    "sources": [
+        "Link.module.scss",
+        "../../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "Link.module.css"
+}

@@ -1,0 +1,93 @@
+@import "../../variables/variables.scss";
+
+.formWrapper {
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (min-width: $width-xm) {
+      flex-direction: row;
+    }
+  }
+  .formTitle {
+    color: $darkBlue;
+    text-align: center;
+    font-family: $fontMonteserat;
+    font-size: 20px;
+    letter-spacing: $spacing;
+    padding-bottom: 5px;
+    @media (min-width: $width-xm) {
+      font-size: 25px;
+    }
+    @media (min-height: $height-xm) {
+      padding-bottom: 20px;
+    }
+    @media (min-width: $width-xxs) and( min-height: $height-xxs) and (orientation: landscape) {
+      font-size: 20px;
+    }
+  }
+
+  .line {
+    border: 1px solid $darkBlue;
+    margin-bottom: 10px;
+
+    @media (min-width: $width-xxs) and (orientation: portrait) {
+      margin-bottom: 1%;
+    }
+    @media (min-width: $height-xxs) and (orientation: portrait) {
+      margin-bottom: 3%;
+    }
+    @media (min-width: $width-xxs) and( min-height: $height-xxs) and (orientation: landscape) {
+      margin-bottom: 5px;
+    }
+
+    @media (min-width: $width-xm) and (min-height: $height-xm) and (orientation: landscape) {
+      margin-bottom: 15px;
+    }
+  }
+  .formOptions {
+    padding-bottom: 10px;
+    width: 100%;
+    @media (min-width: $width-xm) {
+      padding-bottom: 20px;
+    }
+    @media (min-height: $height-s) and (max-height: $height-l) {
+      padding-bottom: 5px;
+    }
+    @media (max-width: $width-m) and (max-height: $height-l) {
+      padding-bottom: 10px;
+    }
+    @media (min-height: $height-l) {
+      padding-bottom: 20px;
+    }
+    @media (min-width: $width-xxs) and( min-height: $height-xxs) and (orientation: landscape) {
+      padding-bottom: 5px;
+    }
+  }
+  .formInputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media (min-width: $width-xxs) and (min-height: $height-xxs) and (max-height: 500px) and (orientation: landscape) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .inputs {
+      @media (min-width: $width-xxs) and( min-height: $height-xxs) and (max-height: 500px) and (orientation: landscape) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 47%;
+      }
+    }
+
+    .textcontainer {
+      @media (min-width: $width-xxs) and( min-height: $height-xxs) and (max-height: 500px) and (orientation: landscape) {
+        width: 47%;
+      }
+    }
+  }
+}

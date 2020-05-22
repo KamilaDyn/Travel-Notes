@@ -1,0 +1,86 @@
+@import "../../../variables//variables.scss";
+
+.card {
+  min-width: 280px;
+  width: 36%;
+  min-height: 200px;
+  border: 1px solid $darkBlue;
+  border-radius: $border-radius-s;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.header {
+  height: 90px;
+  background: rgba($lightGreen, 0.7);
+  border: none;
+  overflow: hidden;
+  border-top-right-radius: $border-radius-s;
+  border-top-left-radius: $border-radius-s;
+  display: flex;
+  align-items: center;
+
+  .title {
+    font-size: 18px;
+    line-height: 28px;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $darkBlue;
+
+    @media (min-width: $width-m) {
+      font-size: 24px;
+    }
+  }
+
+  .title100 {
+    @extend .title;
+    width: 100%;
+  }
+
+  .photoBox {
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    border: 1px solid $darkBlue;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .imageNone {
+    @extend .image;
+    background: url("../../../assets/profile.png") no-repeat;
+    background-size: contain;
+  }
+}
+.header_s {
+  @extend .header;
+  height: 50px;
+}
+
+.content {
+  line-height: 21px;
+  color: #111;
+  padding: 20px 10px 10px;
+
+  @media (min-width: $width-m) {
+    font-size: 18px;
+  }
+}
+
+.content_noLink {
+  @extend .content;
+  padding-bottom: 50px;
+}
+.link {
+  color: $darkRed;
+  padding: 0 10px 40px 10px;
+  @media (min-width: $width-m) {
+    font-size: 20px;
+  }
+}
+.noItem {
+  display: none;
+}

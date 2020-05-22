@@ -1,0 +1,58 @@
+@import "../../variables/variables.scss";
+
+.button {
+  width: 50px;
+  height: 40px;
+  margin-right: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: $white;
+  font-family: $fontFamily;
+  font-weight: 700;
+  font-size: $font-size-m;
+  font-style: normal;
+  background-color: $darkRed;
+  border: none;
+  border-radius: $m-radius;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+
+  &:active {
+    border: 2px solid $darkRed;
+    background-color: $darkRed;
+    color: $white;
+  }
+}
+
+.secondary {
+  @extend .button;
+  font-size: 18px;
+  background-color: $lightGreen;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  color: $darkRed;
+  border-radius: 30px;
+  margin-top: 0;
+  margin-right: 3%;
+
+  @media (min-width: $width-l) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $width-m) and (min-height: $height-m) and (orientation: landscape) {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+.disabledButton {
+  @extend .secondary;
+  opacity: 0.65;
+  cursor: not-allowed;
+}

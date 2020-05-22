@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  position: relative;
+  padding-top: 70px;
+}
+
+@media (min-width: 740px) {
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.underline {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  border: 2px solid #a50606;
+}
+/*# sourceMappingURL=Header.module.css.map */

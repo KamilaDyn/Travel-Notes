@@ -1,0 +1,116 @@
+@import "../../variables/variables.scss";
+
+.sidebar {
+  min-width: 320px;
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/1976241.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+
+  @media (min-width: $width-xl) {
+    transform: translateX(0);
+  }
+
+  .bgc {
+    contain: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $lightGreen;
+    opacity: 0.4;
+  }
+
+  .contain {
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.sidebar.open {
+  transform: translateX(0);
+}
+.image {
+  width: 200px;
+  min-height: 120px;
+  height: 20%;
+  margin: 10px auto 15px auto;
+  border: 1px solid transparent;
+  @media (min-height: $height-s) {
+    height: 160px;
+  }
+  @media (min-height: $height-m) {
+    width: 250px;
+    min-height: 200px;
+    margin: 8% auto 15% auto;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}
+.footer {
+  font-size: 24px;
+  color: $darkRed;
+  padding-top: 5%;
+  text-align: center;
+  bottom: 0;
+
+  @media (min-height: $height-m) {
+    width: 250px;
+    min-height: 150px;
+    margin: 8% auto 12% auto;
+    padding-top: 16%;
+  }
+}
+
+.closeSidebar {
+  width: 27px;
+  height: 27px;
+  background: #1e58ff;
+  border: none;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  &::before,
+  &::after {
+    content: "";
+    width: 16px;
+    height: 2px;
+    position: absolute;
+    background: $white;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    transform-origin: 50%;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}

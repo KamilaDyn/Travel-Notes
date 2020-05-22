@@ -1,0 +1,97 @@
+.wrapper {
+  width: 90%;
+  max-width: 750px;
+  height: 95%;
+  max-height: 750px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5%;
+  padding: 8% 8% 3%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #1156c2;
+  -webkit-box-shadow: 0 20px 40px -5px rgba(17, 86, 194, 0.3);
+          box-shadow: 0 20px 40px -5px rgba(17, 86, 194, 0.3);
+  border-radius: 5px;
+  z-index: 10000;
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .wrapper {
+    padding: 10% 8% 3%;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (orientation: landscape) {
+  .wrapper {
+    padding: 3% 4% 3%;
+  }
+}
+
+@media (min-width: 650px) and (min-height: 550px) and (orientation: landscape) {
+  .wrapper {
+    padding: 5% 8% 3%;
+  }
+}
+
+.closeModule {
+  width: 27px;
+  height: 27px;
+  background: #1e58ff;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.closeModule::before, .closeModule::after {
+  content: "";
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  background: white;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+}
+
+@media (min-width: 650px) {
+  .closeModule {
+    right: 30px;
+    top: 30px;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 320px) and (orientation: landscape) {
+  .closeModule {
+    right: 10px;
+    top: 10px;
+  }
+}
+
+@media (min-width: 560px) and (min-height: 550px) and (orientation: landscape) {
+  .closeModule {
+    right: 30px;
+    top: 30px;
+  }
+}
+
+.closeModule::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.closeModule::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=Modal.module.css.map */
