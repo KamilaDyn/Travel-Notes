@@ -40,7 +40,7 @@ npm start
 
 Kamila Dynysiuk
 
-If you want to share with your thought about this project please write me priv message or email kamila0990@gmail.com
+If you want to share with your thoughts about this project please write me priv message or email kamila0990@gmail.com
 
 ## Comments
 
