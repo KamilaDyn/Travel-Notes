@@ -7,7 +7,7 @@ I've changed / add own layout, content, menu, RWD, and add some function like va
 
 ## See live
 
-# <a href="https://kamiladyn.github.io/Travel-Notes/">LIVE VIEW</a>
+# <a href="https://kamiladyn.github.io/Travel-Notes/#/">LIVE VIEW</a>
 
 ## Technologies used
 
@@ -43,8 +43,3 @@ npm start
 Kamila Dynysiuk
 
 If you want to share with your thoughts about this project please write me priv message or email kamila0990@gmail.com
-
-## Comments
-
-to fix:
-external link a href="", if I write a link without https:// for example, write just google.pl insted https://google.pl , doesn't go to page.
