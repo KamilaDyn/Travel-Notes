@@ -1,7 +1,6 @@
 const instagramState = [
   {
-    image:
-      "https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/p960x960/69359620_10162183937445565_6945283617408942080_o.jpg?_nc_cat=1&_nc_sid=85a577&_nc_ohc=3X4hsZFta_oAX9mb0j9&_nc_ht=scontent.fopo2-1.fna&_nc_tp=6&oh=2e0fb5c95cddd30fae86d200f59bb07e&oe=5EE07B78",
+    image: "https://www.fit.pl/img/2006/11/wojciechowska.jpg",
     title: "Martyna Wojciechowska",
     description:
       "Martyna is a Polish TV presenter, mountaineer, traveller, journalist, sportswoman and writer. In 2010, she completed the Seven Summits. She presents the television series Kobieta na krańcu świata (Woman at the Edge of the World), and is the editor in chief of National Geographic Poland.",
@@ -9,7 +8,7 @@ const instagramState = [
   },
   {
     image:
-      "https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/16807796_135473913637950_393499575519321820_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_ohc=lMjytlYLWaYAX_Lc1Zn&_nc_ht=scontent.fopo2-1.fna&oh=c2231b3d20a5cda7013fb6951a30d309&oe=5EDEA1C6",
+      "https://patronite.pl/upload/user/154837/ckfinder/images/Zrzut%20ekranu%202019-09-25%20o%2020.43.20-2.jpg",
     title: "Bez planu / Bartek Czukiewski",
     description:
       "Polish traveller and youtuber. Currently in: Philippines. Travel to Haiti, Filipines, Chile, Dominikana, Laos, Wietnam .... and more",
