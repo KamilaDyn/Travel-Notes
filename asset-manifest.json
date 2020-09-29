@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Travel-Notes/static/css/main.ca4ae2ab.chunk.css",
-    "main.js": "/Travel-Notes/static/js/main.937f622c.chunk.js",
-    "main.js.map": "/Travel-Notes/static/js/main.937f622c.chunk.js.map",
+    "main.js": "/Travel-Notes/static/js/main.d60fc5ea.chunk.js",
+    "main.js.map": "/Travel-Notes/static/js/main.d60fc5ea.chunk.js.map",
     "runtime-main.js": "/Travel-Notes/static/js/runtime-main.9af66234.js",
     "runtime-main.js.map": "/Travel-Notes/static/js/runtime-main.9af66234.js.map",
     "static/js/2.06e29b20.chunk.js": "/Travel-Notes/static/js/2.06e29b20.chunk.js",
     "static/js/2.06e29b20.chunk.js.map": "/Travel-Notes/static/js/2.06e29b20.chunk.js.map",
     "index.html": "/Travel-Notes/index.html",
-    "precache-manifest.779a119152b477950bb2f8c0aea73b13.js": "/Travel-Notes/precache-manifest.779a119152b477950bb2f8c0aea73b13.js",
+    "precache-manifest.435d08c65b3f42cca4d5507632d82de5.js": "/Travel-Notes/precache-manifest.435d08c65b3f42cca4d5507632d82de5.js",
     "service-worker.js": "/Travel-Notes/service-worker.js",
     "static/css/main.ca4ae2ab.chunk.css.map": "/Travel-Notes/static/css/main.ca4ae2ab.chunk.css.map",
     "static/js/2.06e29b20.chunk.js.LICENSE.txt": "/Travel-Notes/static/js/2.06e29b20.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.9af66234.js",
     "static/js/2.06e29b20.chunk.js",
     "static/css/main.ca4ae2ab.chunk.css",
-    "static/js/main.937f622c.chunk.js"
+    "static/js/main.d60fc5ea.chunk.js"
   ]
 }
