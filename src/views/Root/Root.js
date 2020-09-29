@@ -84,7 +84,7 @@ class Root extends Component {
 
     return (
       <AppContext.Provider value={contextElements}>
-        <BrowserRouter basename="https://kamiladyn.github.io/Travel-Notes">
+        <BrowserRouter basename="https://kamiladyn.github.io/Travel-Notes/#">
           <div className={styles.wrapper}>
             <Sidebar closeSidebarFn={this.closeSidebar} show={isSidebarOpen} />
             {backdrop}
