@@ -84,7 +84,7 @@ class Root extends Component {
 
     return (
       <AppContext.Provider value={contextElements}>
-        <BrowserRouter>
+        <BrowserRouter basename="/Travel-Notes">
           <div className={styles.wrapper}>
             <Sidebar closeSidebarFn={this.closeSidebar} show={isSidebarOpen} />
             {backdrop}
@@ -94,19 +94,9 @@ class Root extends Component {
                 showSidebarFn={this.menuClicked}
               />
               <Switch>
-                <Route
-                  exact
-                  path={process.env.PUBLIC_URL + "/"}
-                  component={Instagram}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/list"}
-                  component={List}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/links"}
-                  component={Links}
-                />
+                <Route exact path="/" component={Instagram} />
+                <Route path="/list" component={List} />
+                <Route path="/links" component={Links} />
               </Switch>
               <Button onClick={this.openModal}> + </Button>
               {isModalOpen && <Modal closeModalFn={this.closeModal} />}
